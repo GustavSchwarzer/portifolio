@@ -21,8 +21,8 @@
     padding: 15px 0;   
     transition: all 0.3s ease;
 }
-.navbar .sticky{
-    background: #00804b;
+.navbar.sticky{
+    background-color: #00804b;
     padding: 30px 0;
 }
 .navbar .max-width{
@@ -112,7 +112,7 @@
 
 /* responsivo */
 
-@media(max-width: 925px){
+@media(max-width: 925px ){
     .max-width{
         padding:0 50px ;
     }
@@ -124,11 +124,12 @@
         position: fixed;
         width: 100%;
         height: 100vh;
-        left: 0;
+        left: -100%;
         top: 0;
-        background:#0F0F0F;
+        background: #111;
         padding-top: 80px;
         text-align: center;
+        transition: all 0.3s ease;
     } 
     .navbar .menu li{
         display: block;
@@ -145,11 +146,13 @@
         font-size: 32px;
     }
 }
+
 @media (max-width: 690px){
-    .home .home-content .text-2{
-        font-size: 60px; 
+    .home .max-width .home-content .text-2{
+        font-size: 60px;
     }
-    .home.home-content .text-3{
+    .home .max-width .home-content .text-2{
         font-size: 32px;
     }
+
 }
