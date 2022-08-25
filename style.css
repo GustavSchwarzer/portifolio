@@ -71,9 +71,10 @@
 /* <!-- home inicio --> */
 
 .home{
-    
+    width: 100%;
     display: flex;
     background: url('./img/keepCoding-editado.jpg') no-repeat center ;
+    background-color: #0F0F0F;
     height: 100vh;
     color: #fff;
     min-height: 500px;
