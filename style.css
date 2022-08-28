@@ -214,13 +214,14 @@ section .title::after{
 .services{
     background: #111;
     color: #fff;
+    
 }
 .services .title::before{
     background: #fff;
 }
 .services .title::after{
     background: #111;
-    content: "Que oferecemos";
+    content: "Serviços"; 
 }
 .services .max-width .services-content .card{
     width: calc(33% - 20px);
