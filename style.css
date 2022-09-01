@@ -5,7 +5,9 @@
     padding:0;
     box-sizing: border-box;
     text-decoration: none;
-    
+}
+html{
+    scroll-behavior: smooth;
 }
 .max-width{
     max-width: 1300px;
@@ -115,6 +117,18 @@
     cursor: pointer;
     display: none;
 }
+.wpp-btn{
+    position: fixed;
+    width: 42px;
+    height: 45px;
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 45px;
+    color: #03D25F;
+    font-size: 50px;
+}
+.wpp-btn a{color:#03D25F}
 /* codigos similares */
 section{
     padding: 100px 0;
@@ -151,7 +165,7 @@ section .title::after{
 }
 
 
-.about, .services, .skills{
+.about, .services, .skills, .teams, footer{
     font-family: 'Roboto' , sans-serif;
 }
 .about .about-content, .services .services-content, .skills .skills-content{
@@ -212,50 +226,61 @@ section .title::after{
 }
 
 /* seção serviços */
-.services{
+.services, .teams{
     background: #111;
     color: #fff;
     
 }
-.services .title::before{
+.services .title::before, .teams .title::before{
     background: #fff;
 }
-.services .title::after{
+.services .title::after,.teams .title::after{
     background: #111;
-    content: "Serviços"; 
+    content: ""; 
 }
-.services .max-width .services-content .card{
+.services .max-width .services-content .card1,.services .max-width .services-content .card2,.services .max-width .services-content .card3 {
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
     cursor: pointer;
+    transition: all 1s ease;
+}
+.services .max-width .services-content .card1:hover, .services .max-width .services-content .card2:hover, .services .max-width .services-content .card3:hover{
+    background: #00804b77;
+}
+.services .max-width .services-content .card1 .box, .services .max-width .services-content .card2 .box, .services .max-width .services-content .card3 .box{
     transition: all 0.3s ease;
 }
-.services .max-width .services-content .card:hover{
-    background: #00804b;
-
-}
-.services .max-width .services-content .card .box{
-    transition: all 0.3s ease;
-}
-.services .max-width .services-content .card:hover .box{
+.services .max-width .services-content .card1:hover .box, .services .max-width .services-content .card2:hover .box, .services .max-width .services-content .card3:hover .box{
     transform: scale(1.05);
 
 }
-.services .max-width .services-content .card ion-icon{
+.services .max-width .services-content .card1 ion-icon, .services .max-width .services-content .card2 ion-icon,.services .max-width .services-content .card3 ion-icon{
     font-size: 50px;
     color: #00804b;
 }
-.services .max-width .services-content .card:hover ion-icon{
-    color: #fff;
-}
-.services .max-width .services-content .card .text{
+
+.services .max-width .services-content .card1 .text, .services .max-width .services-content .card2 .text, .services .max-width .services-content .card3 .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+.services .max-width .services-content .card1:hover ion-icon{
+    color: #2862e9;
+    font-size: 100px;
+}
+
+.services .max-width .services-content .card2:hover ion-icon{
+    color: #E96228;
+    font-size: 100px;
+}
+.services .max-width .services-content .card3:hover ion-icon{
+    color: #D6002F;
+    font-size: 100px;
+}
+
 /* seção especialidade */
 .skills .title::after{
     content: "Que faço";
@@ -273,14 +298,14 @@ section .title::after{
 }
 .skills .skills-content .colum-left a{
     display: inline-block;
-    background: #00804b;
+    background: #0A66C2;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px; 
-    border: 2px solid #00804b;
+    border: 2px solid #222;
     transition: all 0.3s ease;
 }
 .skills .skills-content .colum-left a:hover{
@@ -331,6 +356,81 @@ section .title::after{
 .skills .skills-content .colum-rigth .SQLServer::before{
     width: 47%;
 }
+/* sessão equipe */
+
+.teams .title::after{
+    content: "Personalizados";
+}
+.teams .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover{
+    background: #03D25F;
+    color: #0F0F0F;
+}
+.teams .carousel .card img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1.5px solid #F8A403;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.teams .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    width: 14px;
+    height: 14px;
+    outline: none!important ;
+    border-radius: 50%;
+    border: 2px solid #03D25F!important;
+    transition: all 0.7s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 15px;
+}
+.owl-dot.active,.owl-dot.active:hover{
+    background: #00804b42!important;
+}
+
+/* footer */
+footer{
+    background: #222;
+    padding: 20px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: #03D25F;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+
 
 /* responsivo */
 @media (max-width: 1300px){
@@ -404,7 +504,7 @@ section .title::after{
         justify-content: center;
         margin: 0 auto 60px;
     }
-    .services .max-width .services-content .card{
+    .services .max-width .services-content .card1,.services .max-width .services-content .card2, .services .max-width .services-content .card3{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -430,7 +530,7 @@ section .title::after{
     .about .about-content .colum-left{ 
         width: 50%;
     }
-    .services .max-width .services-content .card{
+    .services .max-width .services-content .card1,.services .max-width .services-content .card2, .services .max-width .services-content .card3{
       width: 100%;
     }
 }

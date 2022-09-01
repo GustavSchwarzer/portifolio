@@ -6,20 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     
 </head>
 
 <body>
+    <div class="wpp-btn">
+       <a href="https://api.whatsapp.com/send?phone=5515981309966&text=Ol%C3%A1!%20Vi%20seu%20site%20portif%C3%B3lio!" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+    </div>
     <div class="navbar" id>
         <div class="max-width">
             <div class="logo"><a href="#">Port<span>fólio</span></a></div>                
             <ul class="menu" >
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Especialidades</a></li>
-                <li><a href="#">Equipe</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#skills">Especialidades</a></li>
+                <li><a href="#teams">Equipe</a></li>
             </ul>
             <div class="menu-btn">
                 <ion-icon name="menu-outline"></ion-icon>
@@ -33,7 +36,7 @@
                 <div class="text-1">Olá meu nome é</div>
                 <div class="text-2">Gustav Schwarzer</div>
                 <div class="text-3">eu sou <span>Full-Stack Developer</span></div>
-                <a href="https://api.whatsapp.com/send?phone=5515981309966&text=Ol%C3%A1!%20Vi%20seu%20site%20portif%C3%B3lio!">Contratar-me</a>
+                <a href="https://api.whatsapp.com/send?phone=5515981309966&text=Ol%C3%A1!%20Vi%20seu%20site%20portif%C3%B3lio!" target="_blank">Contratar-me</a>
             </div>
         </div>
     </section>
@@ -45,7 +48,7 @@
             <h2 class="title">Sobre</h2>
             <div class="about-content">
                 <div class="colum-left">
-                    <img src="./img/gustav.jpg" alt="foto de Gustav Schwarzer sorrindo">
+                    <img src="./img/gustav.png" alt="foto de Gustav Schwarzer sorrindo">
                 </div>
                 <div class="colum-rigth">
                     <div class="text">Sou Gustav e sou <span>Developer</span></div>
@@ -54,7 +57,7 @@
                         facilis minima nam illum perspiciatis voluptas? Totam numquam 
                         accusamus eveniet placeat. Quod, nam quisquam?
                     </p>
-                    <a href="#">Download CV</a>
+                    <a href="https://drive.google.com/drive/folders/1Cv-CYSiUxZGJ2hmsqNIBJzYNz9mhbIzW?usp=sharing" target="_blank">Download CV</a>
                 </div>
             </div>
         </div>
@@ -64,40 +67,37 @@
 
     <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">Serviços</h2>
+            <h2 class="title">Tecnologias</h2>
             <div class="services-content">
-                <div class="card">
+                <div class="card1">
                     <div class="box">
-                        <ion-icon name="brush-outline"></ion-icon>
-                        <div class="text">Web Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Placeat libero quidem est ex doloremque aut in aspernatur, 
-                            recusandae nostrum porro consequatur 
-                            quisquam incidunt eum voluptates tenetur tempore quae rem cum.
+                        <ion-icon name="logo-css3"></ion-icon>
+                        <div class="text">C S S</div>
+                        <p>CSS (Cascading Style Sheet, ou Folha de Estilo em Cascatas), é 
+                            necessário dizer que sua aplicação é 
+                            utilizada na estilização de componentes 
+                            escritos em linguagens de marcação
                         </p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card2">
                     <div class="box">
-                        <ion-icon name="trending-up-outline"></ion-icon>
-                        <div class="text">Anúncios</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Placeat libero quidem est ex doloremque aut in aspernatur, 
-                            recusandae nostrum porro consequatur 
-                            quisquam incidunt eum voluptates tenetur tempore quae rem cum.
+                        <ion-icon name="logo-html5"></ion-icon>
+                        <div class="text">HTML5</div>
+                        <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web. 
+                            Documentos HTML podem ser interpretados por navegadores.
                         </p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card3">
                     <div class="box">
-                        <ion-icon name="code-slash-outline"></ion-icon>
-                        <div class="text">Desenvolvimento</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Placeat libero quidem est ex doloremque aut in aspernatur, 
-                            recusandae nostrum porro consequatur 
-                            quisquam incidunt eum voluptates tenetur tempore quae rem cum.
+                        <ion-icon name="logo-angular"></ion-icon>
+                        <div class="text">Agunlar</div>
+                        <p>Angular é uma plataforma de aplicações web de código-fonte aberto e 
+                            front-end baseado em TypeScript liderado pela Equipe Angular do Google e 
+                            por uma comunidade de indivíduos e corporações.
                         </p>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                             Voluptatibus distinctio vel fugiat blanditiis maiores! Minus amet porro, similique beatae, 
                             ipsam quam omnis reprehenderit quia dolor aliquam numquam ullam pariatur. Deleniti?
                         </p>
-                        <a href="#">Mais informações</a>
+                        <a href="https://www.linkedin.com/in/gustav-schwarzer-1268b0234/" target="_blank">LinkeDin</a>
                     </div>
                 <div class="colum-rigth">
                     <div class="bars">
@@ -153,12 +153,57 @@
         </div>
     </section>
 
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Serviços</h2>
+            <div class="carousel owl-carousel" class="owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="./img/lp.png" alt="">
+                        <div class="text">Landing Pages</div>
+                        Uma Landing Page é uma página específica para conversão. Ela possui vários elementos voltados para tornar o 
+                        visitante em lead, como um texto atrativo, formulário, CTA, entre outros. São páginas muito utilizadas nas 
+                        campanhas de Marketing Digital e costumam ter boas taxas de conversão.<br><br>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="./img/site.png" alt="">
+                        <div class="text">Sites</div>
+                        Site é uma coleção de páginas da web organizadas e localizadas em um servidor na rede. 
+                        Imagine um site como uma casa onde você reúne seus móveis (as informações dele) em cômodos (as páginas dele). 
+                        Um website pode tratar de diversos assuntos e disponibilizam as informações em forma de conteúdo de texto e mídia.
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="./img/sotfware.jpg" alt="">
+                        <div class="text">SoftWares</div>
+                        Ele é a parte lógica da máquina, sendo formado por meio de instruções 
+                        fornecidas a um computador para que, assim, ele execute uma tarefa. 
+                        Então, as instruções comandam ações dentro do programa para que ele possa funcionar. 
+                        Ao contrário do hardware, um software não se danifica com o tempo, mas pode se tornar obsoleto.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- sessão footer -->
+    
+        <footer>
+            <span>Criado por <a href="#">Gustav</a> | Schwarzer</span>
+        </footer>
+    
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 </body>
 
 </html>
