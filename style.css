@@ -226,9 +226,11 @@ section .title::after{
 }
 
 /* seção serviços */
+
 .services, .teams{
     background: #111;
     color: #fff;
+ 
 }
 .services .title::before, .teams .title::before{
     background: #fff;
@@ -257,31 +259,31 @@ section .title::after{
 .services .max-width .services-content .card1:hover 
 .box, .services .max-width .services-content .card2:hover .box, .services .max-width .services-content .card3:hover .box{
     transform: 0.3s;
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 .services .max-width .services-content .card1 ion-icon, .services .max-width .services-content .card2 ion-icon,.services .max-width .services-content .card3 ion-icon{
-    font-size: 50px;
+    font-size: 40px;
     color: #00804b;
 }
 
 .services .max-width .services-content .card1 .text, .services .max-width .services-content .card2 .text, .services .max-width .services-content .card3 .text{
     font-size: 25px;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 10px 0 px 0;
 }
 
 .services .max-width .services-content .card1:hover ion-icon{
     color: #2862e9;
-    font-size: 65px;
+    font-size: 40px;
 }
 
 .services .max-width .services-content .card2:hover ion-icon{
     color: #E96228;
-    font-size: 65px;
+    font-size: 40px;
 }
 .services .max-width .services-content .card3:hover ion-icon{
     color: #D6002F;
-    font-size: 65px;
+    font-size: 40px;
 }
 
 /* seção especialidade */
