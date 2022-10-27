@@ -421,6 +421,121 @@ section .title::after{
     background: #00804b42!important;
 }
 
+
+.projetos-pessoais{
+    
+    
+    background-color: #222;
+}
+
+.text-projetos-pessoais{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Ubuntu' , sans-serif;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-projetos-pessoais p{
+   color: #ccc;
+    margin-bottom: 75px;
+    border: solid 1px #03D25F ;
+    box-shadow: 0 10px 30px#03d2603d;
+    width: 40%;
+    text-align: center;  
+}
+.meme-mind {
+    text-align: center;
+}
+.meme-mind img{
+    
+    height: 200px;
+}
+.meme-mind img{
+    
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+.inicio-projetos{ 
+    padding-top:5px;
+    background-color: #0F0F0F;
+    padding-bottom: 50px;
+}
+ /* cards de projestos pessoais */
+.lista-de-tarefas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    height: 200px;
+    width: 400px;
+    background: #00000076;
+    border-radius: 5px;
+    margin-left: 150px;
+    box-shadow: 0 10px 30px#03d26036;
+    text-align: center; 
+    
+}
+.lista-de-tarefas h1{
+    font-size: 35px;
+    padding-top: 40px;
+    text-shadow:0 0px 40px#b7f7d4dc ;
+    color: #00804b;
+}
+.lista-de-tarefas button{
+    margin-top: 15px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.567);
+    height: 25px;
+    width: 100px;
+    border-radius: 15px;
+    font-family: 'Ubuntu' , sans-serif;
+    font-weight: 500;
+    border: none;
+}
+.lista-de-tarefas button:hover{
+    background-color: #03D25F;
+    cursor: pointer;
+}
+
+.viapex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    height: 200px;
+    width: 400px;
+    background: #00000076;
+    border-radius: 5px;
+    margin-left: 700px;
+    box-shadow: 0 10px 30px#03d26036;
+    text-align: center; 
+    
+}
+.viapex h1{
+    font-size: 35px;
+    padding-top: 40px;
+    text-shadow:0 0px 40px#b7f7d4dc ;
+    color: #00804b;
+}
+.viapex button{
+    margin-top: 15px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.567);
+    height: 25px;
+    width: 100px;
+    border-radius: 15px;
+    font-family: 'Ubuntu' , sans-serif;
+    font-weight: 500;
+    border: none;
+}
+.viapex button:hover{
+    background-color: #03D25F;
+    cursor: pointer;
+}
+
+
 /* footer */
 footer{
     background: #222;
