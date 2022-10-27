@@ -448,7 +448,6 @@ section .title::after{
     text-align: center;
 }
 .meme-mind img{
-    
     height: 200px;
 }
 .meme-mind img{
@@ -459,6 +458,7 @@ section .title::after{
     padding-top:5px;
     background-color: #0F0F0F;
     padding-bottom: 50px;
+    
 }
  /* cards de projestos pessoais */
 .lista-de-tarefas{
@@ -471,9 +471,11 @@ section .title::after{
     width: 400px;
     background: #00000076;
     border-radius: 5px;
-    margin-left: 150px;
+    
     box-shadow: 0 10px 30px#03d26036;
-    text-align: center; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
     
 }
 .lista-de-tarefas h1{
@@ -508,10 +510,11 @@ section .title::after{
     width: 400px;
     background: #00000076;
     border-radius: 5px;
-    margin-left: 700px;
     box-shadow: 0 10px 30px#03d26036;
-    text-align: center; 
-    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+     
 }
 .viapex h1{
     font-size: 35px;
