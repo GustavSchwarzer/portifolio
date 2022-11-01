@@ -448,12 +448,9 @@ section .title::after{
     text-align: center;
 }
 .meme-mind img{
-    height: 200px;
+    height: 300px;
 }
-.meme-mind img{
-    
-    animation: name duration timing-function delay iteration-count direction fill-mode;
-}
+
 .inicio-projetos{ 
     padding-top:5px;
     background-color: #0F0F0F;
@@ -470,8 +467,7 @@ section .title::after{
     height: 200px;
     width: 400px;
     background: #00000076;
-    border-radius: 5px;
-    
+    border-radius: 5px;    
     box-shadow: 0 10px 30px#03d26036;
     text-align: center;
     margin-left: auto;
