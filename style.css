@@ -478,7 +478,7 @@ section .title::after{
     font-size: 35px;
     padding-top: 40px;
     text-shadow:0 0px 40px#b7f7d4dc ;
-    color: #00804b;
+    color:  #03D25F;
 }
 .lista-de-tarefas button{
     margin-top: 15px;
@@ -490,6 +490,7 @@ section .title::after{
     font-family: 'Ubuntu' , sans-serif;
     font-weight: 500;
     border: none;
+    margin-bottom: 5px;
 }
 .lista-de-tarefas button:hover{
     background-color: #03D25F;
@@ -516,7 +517,7 @@ section .title::after{
     font-size: 35px;
     padding-top: 40px;
     text-shadow:0 0px 40px#b7f7d4dc ;
-    color: #00804b;
+    color:  #03D25F;
 }
 .viapex button{
     margin-top: 15px;
@@ -528,6 +529,7 @@ section .title::after{
     font-family: 'Ubuntu' , sans-serif;
     font-weight: 500;
     border: none;
+    margin-bottom: 5px;
 }
 .viapex button:hover{
     background-color: #03D25F;
@@ -630,6 +632,14 @@ footer span a:hover{
     .skills .skills-content .colum-rigth, .skills .skills-content .colum-left{
         width: 100%;
         margin-bottom: 25px;
+    }
+
+    .lista-de-tarefas, .viapex, .meme-mind{
+        width: 60%;
+        height: 50%;
+    }
+    .lista-de-tarefas h1, .viapex h1{
+        font-size: 25px;
     }
 }
 
