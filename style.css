@@ -443,17 +443,19 @@ section .title::after{
 }
 .text-projetos-pessoais p{
    color: #ccc;
-    margin-bottom: 75px;
+    margin-bottom: 15px;
     border: solid 1px #03D25F ;
     box-shadow: 0 10px 30px#03d2603d;
-    width: 40%;
     text-align: center;  
 }
 .meme-mind {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 .meme-mind img{
-    height: 300px;
+    height: 100%;
+    max-width: 70%;
 }
 
 .inicio-projetos{ 
