@@ -317,6 +317,11 @@ section .title::after{
     color: #00804b;
     background: none;
 }
+#gitHubIcon{ 
+    background-color: #222;
+    font-size: 20px;
+    
+}
 .skills .skills-content .colum-rigth .bars{
     margin-bottom: 15px;
 }
