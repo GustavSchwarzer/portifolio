@@ -320,7 +320,7 @@ section .title::after{
 #gitHubIcon{ 
     background-color: #222;
     font-size: 20px;
-    
+    border: solid 1px #03D25F;
 }
 .skills .skills-content .colum-rigth .bars{
     margin-bottom: 15px;
