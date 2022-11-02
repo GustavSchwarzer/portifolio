@@ -486,7 +486,7 @@ section .title::after{
 .lista-de-tarefas h1{
     font-size: 35px;
     padding-top: 40px;
-    text-shadow:0 0px 40px#b7f7d4dc ;
+    text-shadow: 5px 1px 10px #000000;
     color:  #03D25F;
 }
 .lista-de-tarefas button{
