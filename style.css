@@ -477,6 +477,10 @@ section .title::after{
     text-align: center;
     margin-left: auto;
     margin-right: auto; 
+
+    background-image: linear-gradient(to right , #0ab858d7,#03d26036 ,#00000076 );
+    background-size: 500% 100%;
+    animation: degrade-top 5s infinite alternate ;
     
 }
 .lista-de-tarefas h1{
@@ -510,19 +514,32 @@ section .title::after{
     margin-top: 150px;
     height: 200px;
     width: 400px;
-    background: #00000076;
+    
     border-radius: 5px;
     box-shadow: 0 10px 30px#03d26036;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-     
+
+    background-image: linear-gradient(to left , #0ab858d7,#03d26036 ,#00000076 );
+    background-size: 500% 100%;
+    animation: degrade-top 5s infinite alternate ;
+}
+@keyframes degrade-top {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+    
 }
 .viapex h1{
     font-size: 35px;
     padding-top: 40px;
     text-shadow:0 0px 40px#b7f7d4dc ;
     color:  #03D25F;
+    text-shadow: 5px 1px 10px #000000;
 }
 .viapex button{
     margin-top: 15px;
@@ -540,6 +557,7 @@ section .title::after{
     background-color: #03D25F;
     cursor: pointer;
 }
+
 
 
 /* footer */
