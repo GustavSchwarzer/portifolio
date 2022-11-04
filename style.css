@@ -464,9 +464,10 @@ section .title::after{
     padding-bottom: 50px;
     
 }
- /* cards de projestos pessoais ↓ */
+ /* cards de projestos pessoais */
+/*  */
 
-/* DE MELHORIA DE CODIGO ↓↓ */
+/* TESTE DE MELHORIA DE CODIGO */
 
 .cards-projetos{
     display: flex;
@@ -486,6 +487,13 @@ section .title::after{
     background-image: linear-gradient(to right , #0ab858d7,#03d26036 ,#00000076 );
     background-size: 500% 100%;
     animation: degrade-top 5s infinite alternate ;  
+}
+.cards-projetos h1{
+    font-size: 35px;
+    padding-top: 40px;
+    text-shadow:0 0px 40px#b7f7d4dc ;
+    color:  #03D25F;
+    text-shadow: 5px 1px 10px #000000;
 }
 .cards-projetos button{
     margin-top: 15px;
