@@ -100,7 +100,7 @@ html{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.home .home-content a{
+.home .home-content .pulse a{
     display: inline-block;
     background: #00804b;
     color: #fff;
@@ -108,11 +108,27 @@ html{
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
+    opacity: 0.5;
     border: 2px solid #00804b;
 }
 .home .home-content a:hover{
     color: #00804b;
     background: none;
+}
+.pulse a{
+    
+    position: absolute;
+    
+    background: inherit;
+    border-radius: inherit;
+    
+    animation: pulseAnimate 1s ease-out infinite;
+}
+@keyframes pulseAnimate {
+    100%{
+        opacity: 1;
+        transform: scale(1.05);
+    }   
 }
 /* menu mobile */
 
