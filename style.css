@@ -116,12 +116,9 @@ html{
     background: none;
 }
 .pulse a{
-    
     position: absolute;
-    
     background: inherit;
     border-radius: inherit;
-    
     animation: pulseAnimate 1s ease-out infinite;
 }
 @keyframes pulseAnimate {
